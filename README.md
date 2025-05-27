@@ -25,7 +25,22 @@ git clone https://github.com/yourusername/github-top10.git
 uv sync
 ```
 
-### 3. 运行程序：
+### 3. 添加邮箱：
+编辑`config.py`文件添加发送邮箱和密码
+```py
+SMTP_SERVER = "smtp.qq.com"
+SMTP_PORT = 587
+EMAIL_ADDRESS = ""
+EMAIL_PASSWORD = ""
+```
+编辑`main.py`文件添加接受邮箱
+```py
+if __name__ == "__main__":
+    # 直接运行时，发送到默认邮箱
+    fetch_and_send_trending_repositories(["youremail@qq.com"])
+```
+
+### 4. 运行程序：
 ```bash
 uv run main.py
 ```
