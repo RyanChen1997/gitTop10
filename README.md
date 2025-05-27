@@ -6,6 +6,8 @@
 
 自动获取每周 GitHub 上最热门的 10 个项目，生成的内容将以漂亮的 HTML 形式呈现。
 
+![项目封面](https://github.com/RyanChen1997/gitTop10/blob/main/image/gittop10.jpg?raw=true)
+
 ## 特色功能：
 1. 自动获取 GitHub 上最热门的 10 个项目。
 2. 自动生成 HTML 文件，包含项目信息、描述、star 数、更新时间等信息。
